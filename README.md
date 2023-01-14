@@ -1,16 +1,17 @@
-# hello
+# A sample app for integration test and accessibility test
 
-A new Flutter project.
+## Integration Testing
 
-## Getting Started
+- [Testing Flutter app](https://docs.flutter.dev/testing#integration-tests)
+- [Introduction to integration testing](https://docs.flutter.dev/cookbook/testing/integration/introduction)
 
-This project is a starting point for a Flutter application.
+## Accessibility
 
-A few resources to get you started if this is your first Flutter project:
+- [Accessibility](https://docs.flutter.dev/development/accessibility-and-localization/accessibility?tab=talkback)
+- [M3 Accessibility Design](https://m3.material.io/foundations/accessible-design/overview)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## How to run test
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+flutter test integration_test/a11y.dart integration_test/increment.dart
+```
