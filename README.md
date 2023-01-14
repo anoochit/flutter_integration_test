@@ -10,6 +10,10 @@
 - [Accessibility](https://docs.flutter.dev/development/accessibility-and-localization/accessibility?tab=talkback)
 - [M3 Accessibility Design](https://m3.material.io/foundations/accessible-design/overview)
 
+## CI
+
+- [GitHub Action](https://www.geekco.fr/posts/en/how-to-add-flutter-integration-test-in-a-ci-with-github-action)
+
 ## How to run test
 
 ```
