@@ -11,7 +11,7 @@ void main() {
       final SemanticsHandle handle = tester.ensureSemantics();
 
       await tester.pumpWidget(const MyApp());
-      await tester.pumpAndSettle(const Duration(seconds: 3));
+      await tester.pumpAndSettle();
 
       // Checks that tappable nodes have a minimum size of 48 by 48 pixels for Android.
       await expectLater(tester, meetsGuideline(androidTapTargetGuideline));

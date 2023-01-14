@@ -26,7 +26,7 @@ void main() {
 
       // Tap the '+' icon and trigger a frame.
       await tester.tap(find.byIcon(Icons.add));
-      await tester.pump(const Duration(seconds: 1));
+      await tester.pump();
 
       // Verify that our counter after tap + button
       expect(find.text('0'), findsNothing,
@@ -39,14 +39,14 @@ void main() {
 
       // Tap the '+' icon and trigger a frame.
       await tester.tap(find.byIcon(Icons.add));
-      await tester.pump(const Duration(seconds: 1));
+      await tester.pump();
 
       // Verify that our counter after tap + button
       expect(find.text('2'), findsOneWidget, reason: '==> Tap increment to 2');
 
       // Tap the '+' icon and trigger a frame.
       await tester.tap(find.byIcon(Icons.add));
-      await tester.pump(const Duration(seconds: 1));
+      await tester.pump();
 
       // Verify that our counter after tap + button
       expect(find.text('3'), findsOneWidget, reason: '==> Tap increment to 3');
