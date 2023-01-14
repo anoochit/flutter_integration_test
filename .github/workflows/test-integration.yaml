@@ -30,9 +30,9 @@ jobs:
           script: flutter test integration_test/a11y.dart integration_test/increment.dart
 
       # Update screenshot to artifact
-      - name: Upload screenshots
-        if: always()
-        uses: actions/upload-artifact@v1
-        with:
-          name: screenshot
-          path: ${{ matrix.path }}screenshots/
+      # - name: Upload screenshots
+      #   if: always()
+      #   uses: actions/upload-artifact@v1
+      #   with:
+      #     name: screenshot
+      #     path: ${{ matrix.path }}screenshots/
