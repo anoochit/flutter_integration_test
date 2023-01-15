@@ -13,6 +13,7 @@
 ## CI
 
 - [GitHub Action](https://www.geekco.fr/posts/en/how-to-add-flutter-integration-test-in-a-ci-with-github-action)
+- [CodeMagic](https://blog.codemagic.io/flutter-automated-screenshot-testing/)
 
 ## How to run test
 
